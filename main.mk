@@ -12,7 +12,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.dateformat=MM-dd-yyyy
 
 PRODUCT_COPY_FILES += \
-	vendor/yashar/apns-conf.xml:system/etc/apns-conf.xml
+    vendor/yashar/apns-conf.xml:system/etc/apns-conf.xml
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.ringtone=Titania.ogg \
@@ -25,3 +25,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     
 PRODUCT_PACKAGES += \
     Camera2
+
+ifeq ($(TARGET_USES_LEGACY_CAMHAL),true)
+  PRODUCT_PROPERTY_OVERRIDES += \
+      media.stagefright.legacyencoder=true \
+      media.stagefright.less-secure=true
+endif
