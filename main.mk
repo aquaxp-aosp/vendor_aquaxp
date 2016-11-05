@@ -25,3 +25,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     
 PRODUCT_PACKAGES += \
     Camera2
+
+# enable google assistant
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.opa.eligible_device=true
