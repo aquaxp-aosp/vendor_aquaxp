@@ -1,4 +1,4 @@
-PRODUCT_PACKAGE_OVERLAYS += vendor/yashar/overlay/
+PRODUCT_PACKAGE_OVERLAYS += vendor/aquaxp/overlay/
 
 PRODUCT_PROPERTY_OVERRIDES += \
     keyguard.no_require_sim=true \
@@ -12,7 +12,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.dateformat=MM-dd-yyyy
 
 PRODUCT_COPY_FILES += \
-    vendor/yashar/apns-conf.xml:system/etc/apns-conf.xml
+    vendor/aquaxp/apns-conf.xml:system/etc/apns-conf.xml
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.ringtone=Titania.ogg \
@@ -22,7 +22,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # show selinux status
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.selinux=1
-    
+
 PRODUCT_PACKAGES += \
     Camera2
 
