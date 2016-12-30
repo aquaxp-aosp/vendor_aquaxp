@@ -16,8 +16,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.ringtone=Titania.ogg \
-    ro.config.notification_sound=Tethys.ogg \
-    ro.config.alarm_alert=Oxygen.ogg
+    ro.config.notification_sound=Iapetus.ogg \
+    ro.config.alarm_alert=Osmium.ogg
 
 # show selinux status
 PRODUCT_PROPERTY_OVERRIDES += \
