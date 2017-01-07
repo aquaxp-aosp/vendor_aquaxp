@@ -14,6 +14,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_COPY_FILES += \
     vendor/aquaxp/apns-conf.xml:system/etc/apns-conf.xml
 
+# Copy bootanimation
+PRODUCT_COPY_FILES += \
+    vendor/aquaxp/bootanimation.zip:system/media/bootanimation.zip
+
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.ringtone=Titania.ogg \
     ro.config.notification_sound=Iapetus.ogg \
