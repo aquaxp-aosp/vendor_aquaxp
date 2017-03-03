@@ -12,11 +12,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.dateformat=MM-dd-yyyy
 
 PRODUCT_COPY_FILES += \
-    vendor/aquaxp/apns-conf.xml:system/etc/apns-conf.xml
+    vendor/aquaxp/prebuilt/apns-conf.xml:system/etc/apns-conf.xml
 
 # Copy bootanimation
 PRODUCT_COPY_FILES += \
-    vendor/aquaxp/bootanimation.zip:system/media/bootanimation.zip
+    vendor/aquaxp/prebuilt/bootanimation/1080.zip:system/media/bootanimation.zip
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.ringtone=Titania.ogg \
