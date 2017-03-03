@@ -1,8 +1,8 @@
 include vendor/aquaxp/configs/aosp_addons.mk
 include vendor/aquaxp/configs/bootanimation.mk
 include vendor/aquaxp/configs/common_main.mk
-include vendor/aquaxp/configs/system_additions.mk
-include vendor/aquaxp/configs/version.mk
+include vendor/aquaxp/configs/common_system.mk
+# include vendor/aquaxp/configs/version.mk # We don't need to setup self version now
 
 # Telephony packages
 PRODUCT_PACKAGES += \
