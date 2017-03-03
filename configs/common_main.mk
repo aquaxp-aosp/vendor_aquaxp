@@ -18,4 +18,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.alarm_alert=Osmium.ogg
 
 # Custom Packages
-#PRODUCT_PACKAGES += \
+PRODUCT_PACKAGES += \
+    Camera2
